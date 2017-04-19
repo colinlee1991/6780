@@ -1,0 +1,14 @@
+           /*this is to set out the unified background and font for the site */
+           body {background-color:cornsilk; font-family: Arial, Helvetica, Geneva, sans serif}
+           /*cascading passion page*/
+          .passion h1  {color: purple; text-align: center}
+          .passion p:first-letter {font-size: 20px; font-weight: bold}
+          .passion p   {hight: 60px; width: 1000px;  border-style: groove; border-color: grey;
+                        font-size: 15px; line-height: 1.9em; background-color: white; margin: 10px auto 10px auto;
+                        text-align: left}
+          /*cascading feedback page*/
+          .feedback {text-align: center}
+          .feedback h1 {color: purple; text-align: center}
+          .feedback p {font-weight: bold}
+
+          #sitemap {width: 800px; height= 500px; margin: 0px auto; display: block;}
