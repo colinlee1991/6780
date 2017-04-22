@@ -1,0 +1,45 @@
+.syntax unified
+.global main
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@ the audio framework has two functions:
+@
+@ 1. init_audio (call this once at the start of your program)
+@
+@ 2. play_audio_sample (sends the low 16 bits of r0 out the
+@    headphone jack - call this repeatedly in your main loop)
+@
+@ the rest is up to you!
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+.macro fq_highnote count
+ldr r4, =\count
+repeat\@:
+ldr r0, =0x7fff
+bl play_audio_sample
+subs r4, #1
+bne repeat\@
+ldr r0, =0x8000
+ldr r4, =\count
+.endm
+
+.macro fq_lownote count
+ldr r4, =\count
+repeat\@:
+ldr r0, =0x8000
+bl play_audio_sample
+subs r4, #1
+bne repeat\@
+ldr r0, =0x7fff
+ldr r4, =\count
+.endm
+
+.macro delay
+
+main:
+	@ your code goes here
+	bl init_audio
+test:
+    fq_highnote #500
+    fq_lownote  #500
+    b test
