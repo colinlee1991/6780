@@ -2,9 +2,9 @@
            body {background-color:cornsilk; font-family: Arial, Helvetica, Geneva, sans serif}
            /*cascading passion page, using class selector of css to cascade different element of a certain class*/
           .passion h1  {color: purple; text-align: center}
-          .passion p:first-letter {font-size: 20px; font-weight: bold}
-          .passion p   {hight: 60px; width: 1000px;  border-style: groove; border-color: grey;
-                        font-size: 15px; line-height: 1.9em; background-color: white; margin: 10px auto 10px auto;
+          .passion p:first-letter {font-size: 40px; font-weight: bold}
+          .passion p   {hight: 600px; width: 1000px;  border-style: groove; border-color: grey;
+                        font-size: 25px; line-height: 1.9em; background-color: white; margin: 10px auto 10px auto;
                         text-align: left}
           /*cascading feedback page with the same way above*/
           .feedback {text-align: center}
