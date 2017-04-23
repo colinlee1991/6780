@@ -15,7 +15,8 @@
           /*same way cascading a picture of me using id selector of the feedback page*/
           #me {width: 400px; height:300px;margin: 0px auto; display: block;}
 
-          #menu {width:100%; height: 150px; background-image: url("test.jpg"); font-size: 20px;font-weight: bold; }
-          #menu ul{height: auto; padding: 70px 0px; margin: 20px; text-align: center;}
-           #menu li {display: inline; padding: 20px;}
-           #menu a {text-decoration: none;}
+          #menu {width:100%; height: 150px; background-image: url("bar.png"); background-position: center top; background-repeat: no-repeat; padding: 2px}
+          #menu ul{background-color: cornsilk; opacity: 0.5; text-align: center;}
+           #menu li {display: inline; padding: 20px;  }
+           #menu a {text-decoration: none; color: black; font-size: 17px;font-weight: bolder}
+           #hp {hight: 1920px; width: 100%;}
