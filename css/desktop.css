@@ -18,14 +18,16 @@
           #me {width: 400px; height:300px;margin: 0px auto; display: block;}
 
           #menu {width:100%; height: 150px; background-image: url("images/bar.png");  background-position: center top; background-repeat: no-repeat; padding: 2px}
-          #menu ul{background-color:darkgoldenrod; opacity: 0.9;text-align: center;}
+          #menu ul{background-color:darkgoldenrod; opacity: 0.8;text-align: center;}
            #menu li {display: inline; padding: 20px;}
            #menu a {text-decoration: underline;  color: snow; font-size: 17px;font-weight: bolder; font-family:sans-serif;}
            #hp {hight: 1920px; width: 100%;}
            .intro h1 {color: black; text-align: center; margin-top: 0%}
-           #chinamap {border-style: dashed; margin-top: 20px;}
+           .chinamap img{border-style: dashed; margin-top: 20px;}
+           .chinamap {width: 350px; height: 300px; text-align: center; font-family: cursive; font-size: 12px; background-color: rgba(255,250,250,0.5); }
+           .chinamap h4{margin-top: 0em;}
            .gallery table{margin: 0px auto;}
-           .gallery img {width: 300px; height: 200px;}
+           .gallery img {width: 500px; height: 350px;}
            .gallery h3{ color: snow; background-color: darkred; font-family: cursive; text-align: center;}
            .gallery p {text-align: center;}
            .gallery table th {font-size: 20px; text-align: center; font-family: "Times New Roman"; word-spacing: 0.2em; letter-spacing: 0.05em; background-color: snow; opacity: 0.8; text-transform: uppercase;}
