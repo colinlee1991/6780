@@ -61,3 +61,5 @@
            .gallery h3{ color: snow; background-color: darkred; font-family: cursive; text-align: center;}
            .gallery p {text-align: center;}
            .gallery table th {font-size: 20px; text-align: center; font-family: "Times New Roman"; word-spacing: 0.2em; letter-spacing: 0.05em; background-color: snow; opacity: 0.8; text-transform: uppercase;}
+           .storyboard {margin: 0px auto;text-align: center;}
+           .storyboard img {width: 1024px; height: 720px;}
